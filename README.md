@@ -13,10 +13,16 @@ You’ll get their attack power, defense, a special move, and even a signature c
 
 ## How It Works 🛠️
 
-*   **Backend:** A Python server using the **Flask** framework.
-*   **Computer Vision:** I used **OpenCV** to handle the video and the **YOLOv8** model to find and isolate each cat in the video frames.
-*   **AI Character Design:** The cropped portrait of each cat is sent to the **Claude 3.5 Sonnet API**, which acts as the game designer to create the stats and personality.
-*   **Frontend:** The retro arcade interface is built with standard **HTML**, **CSS**, and **JavaScript**.
+*   **Backend:**
+    *   **Framework:** Flask
+    *   **Language:** Python 3.10+
+    *   **Object Detection:** `ultralytics` (for YOLO models)
+    *   **Image Processing:** `opencv-python`, `Pillow`
+    *   **AI Model:** Claude 3.5 Sonnet (via Anthropic API)
+*   **Frontend:**
+    *   **Structure:** HTML5
+    *   **Styling:** CSS3
+    *   **Interactivity:** JavaScript (Fetch API, FormData)
 
 ---
 
@@ -28,6 +34,11 @@ You’ll get their attack power, defense, a special move, and even a signature c
 
 ## Example 📸 
 
+![Screenshot 2025-06-23 at 11 13 39 AM](https://github.com/user-attachments/assets/14a76734-d87f-46c4-874d-a4ad091886bc)
 
+![Screenshot 2025-06-23 at 11 12 04 AM](https://github.com/user-attachments/assets/6af9257c-da55-4193-8b61-6238011a8d4f)
 
+![Screenshot 2025-06-23 at 11 12 10 AM](https://github.com/user-attachments/assets/45be12a5-e6f3-430a-aa20-1e85dd2d46d1)
+
+https://github.com/user-attachments/assets/dee54c13-9452-4b79-8950-a8cb2b251ebf
 
