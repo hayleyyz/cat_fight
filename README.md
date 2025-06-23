@@ -1,10 +1,14 @@
 # 🐱 CAT-FIGHT
 
-This is a little project is about a question I had in my head about my cat, Haitai: if he were a fighting game character.
+This little project started with a question I had about my cat, Haitai: 
 
-This tool takes the idea and flows. With a video of a cat (or multiple!), it identifies each cat and create a fighter profile, including the power, defense, a special move, and a catchphrase!
+What if he were a fighting game character?
 
-🐶 *Dog person? No worries — a new version is on the way!*
+So, this tool is here to help visualize that idea.
+
+With a video of a cat (or multiple!), it identifies each one and creates a fighter profile, including the power, defense, a special move, and a catchphrase!
+
+🐶 *Dog person? — a new edition is on the way*
 
 ---
 
