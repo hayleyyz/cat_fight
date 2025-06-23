@@ -1,13 +1,10 @@
 # 🐱 CAT-FIGHT
 
-I built this little project to finally answer a question that’s been on my mind while hanging out with my cat, Haitai:
-If my cat were a fighting game character, what would his stats be??
+This is a little project is about a question I had in my head about my cat, Haitai: if he were a fighting game character.
 
-This tool takes the idea and runs with it. Just upload a video of a cat (or multiple!), and it uses computer vision to identify each cat and create a unique Super Smash Bros.–style fighter profile.
+This tool takes the idea and flows. With a video of a cat (or multiple!), it identifies each cat and create a fighter profile, including the power, defense, a special move, and a catchphrase!
 
-You’ll get their attack power, defense, a special move, and even a signature catchphrase they’d shout before battle.
-
-*Dog person? No worries — a new edition is coming soon!*
+🐶 *Dog person? No worries — a new version is on the way!*
 
 ---
 
@@ -32,7 +29,7 @@ You’ll get their attack power, defense, a special move, and even a signature c
 **Note:** This demo is hosted on my local machine via ngrok, so it will only be active when my computer is on :)
 
 
-## Example 📸 
+## Example:
 
 ![Screenshot 2025-06-23 at 11 13 39 AM](https://github.com/user-attachments/assets/14a76734-d87f-46c4-874d-a4ad091886bc)
 
