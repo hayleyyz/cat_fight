@@ -1,0 +1,9 @@
+Flask
+opencv-python
+python-dotenv
+anthropic
+ultralytics
+Pillow
+torch
+torchvision
+gunicorn

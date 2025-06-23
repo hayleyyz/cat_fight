@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CAT-FIGHT | Character Generator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+
+    <div class="main-container">
+        <header class="game-header">
+            <h1>CAT-FIGHT</h1>
+            <p>CHOOSE YOUR FIGHTER</p>
+        </header>
+
+        <section id="input-section" class="card">
+            <h2>Upload a Video File</h2>
+            <form id="fighter-form">
+                <input type="file" id="video-file" accept="video/*" required>
+                <button type="submit" id="generate-btn">FIGHT!</button>
+            </form>
+        </section>
+
+        <section id="loading-section" class="card hidden">
+            <h2 class="loading-text">ANALYZING COMBATANT...</h2>
+        </section>
+
+        <section id="result-section" class="hidden">
+        </section>
+
+        <section id="error-section" class="card hidden">
+            <h2>ERROR</h2>
+            <p id="error-message">Could not generate fighter profile.</p>
+        </section>
+
+    </div>
+
+    <script src="/static/js/script.js"></script>
+</body>
+</html>
